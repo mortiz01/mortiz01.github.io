@@ -1,0 +1,54 @@
+h1{
+	color:white;
+  text-align: center;
+  background: gray;
+  font-family: Palatino, serif;
+}
+
+.HolyGrail {
+background: gray;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: Palatino, serif;
+}
+
+.HolyGrail-body {
+  display: flex;
+  flex: 1;
+  font-family: Palatino, serif;
+}
+
+.HolyGrail-content {
+  flex: 1;
+  font-family: Palatino, serif;
+  background: #add8e6;
+}
+
+.HolyGrail-nav, .HolyGrail-abs {
+  /* 12em is the width of the columns */
+  flex: 0 0 12em;
+  font-family: Palatino, serif;
+  background: #add8e6;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.HolyGrail-nav {
+  /* put the nav on the left */
+  order: -1;
+  font-family: Palatino, serif;
+}
+
+footer{
+  text-align:center;
+}
+
+#pic{
+  display: block;
+  position: relative;
+  top: 0; bottom:0; left: 0; right:0;
+  margin: 0 auto;
+  width: 400px;
+}
